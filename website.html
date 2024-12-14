@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>My Profile</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: rgb(0, 0, 0);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 45px;
+            margin-left: 1.5rem;
+
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        a:hover {
+            color: red;
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+        }
+        .menu li {
+            margin-right: 1rem;
+        }
+        .btn {
+            background-color: aliceblue;
+            color: black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        body {
+            background-image: url('./images/BB9E2C82-B44A-47A5-ADE2-EB11DEE41BB5_1_201_a.jpeg');
+            background-size: cover;
+            background-position: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .container {
+            margin: 5rem;
+            padding: 2rem;
+            background-color: aliceblue;
+            border-radius: 8px;
+        }
+        .about-con {
+            display: flex;
+            font-size: larger;
+        }
+        .personal {
+            margin-left: 2rem;
+            margin-top: 0.7rem;
+        }
+        p {
+            margin-top: 5px;
+        }
+        ul img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10rem;
+        }
+
+        .menu-contact {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .contact-s {
+            text-align: center;
+            background-color: aliceblue;
+            padding: 10px;
+            margin-left: 25rem;
+            margin-right: 25rem;
+            border-radius: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">My Profile</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./index.html" class="btn">Go to HOME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>About me</h1>
+            <div class="about-con" id="about">
+                <img src="https://scontent.fbkk5-3.fna.fbcdn.net/v/t39.30808-6/428601116_1482033529194568_288643500233813238_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG1NQcRqVdl1vhmDrP1zjjEArGghknKgY4CsaCGScqBjq5zPGtT0MhZnLNUH6y3prfFc_qfxU3sEApE862pqYbT&_nc_ohc=v6Mihrj98jwQ7kNvgF3Vw7j&_nc_zt=23&_nc_ht=scontent.fbkk5-3.fna&_nc_gid=Adjoqq_XVkKTCMDp_aWu3SF&oh=00_AYDd3tRI8PQZR85xY4BxCMeDFENEOmRfF8WeOcy4iBavUQ&oe=67624E5F" alt="Kittitat Mukdasanit" style="height: 300px; width: 300px; border-radius: 8px;margin-top: 1rem;">
+                <div class="personal">
+                    <p><b>Name : </b>Kittitat Mukdasanit</p>
+                    <p><b>Nickname : </b>Boss</p>
+                    <p><b>Age : </b>19 Years old</p>
+                    <p><b>Gender : </b>Male</p>
+                    <p><b>Religion : </b>Buddhist</p>
+                    <p><b>Date of birth : </b>27 March 2005</p>
+                </div>
+            </div>
+            <div style="margin-top: 2rem;">
+                <a href="#education" style="background-color: gray; color: aliceblue; border-radius: 5px; padding: 5px; margin-left: 1150px; ">Next </a>
+            </div>
+        </div>
+        <div class="container" id="education">
+            <h1>Education</h1>
+            <div class="school" style="display: flex;">
+                <img src="https://scontent.fbkk5-3.fna.fbcdn.net/v/t39.30808-6/360099545_780286777225984_1834370044803594650_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEutN0lqEZNViMaktH3qKkS-OyynixGSEf47LKeLEZIRx16fV3R8ODAEe5_Hkv1YSQhQE4JAuN0T4SRpPBzPft2&_nc_ohc=BJtzagnVOJ8Q7kNvgEiEMgf&_nc_zt=23&_nc_ht=scontent.fbkk5-3.fna&_nc_gid=AFn8lY3vwkxAMRbNXwLkeX8&oh=00_AYBmM2kkBAZfiYzRv4kHPjdn07euwHq6HWGRzGIpBGS_2Q&oe=67623A8B" alt="school" style="height: 200px; width: 200px; border-radius: 50px; margin-top: 1rem;">
+                <div class="school-con">
+                    <h2 style="margin: 1.3rem;">The Demonstration School of Kanchanaburi Rajabhat University</h2>
+                    <p style="margin-left: 2rem;">I studied in school from Grade 1 to Grade 6 and I graduated with a GPA 2.74 </p>
+                </div>
+            </div>
+            <div class="university" style="display: flex;">
+                <img src="https://scontent.fbkk5-5.fna.fbcdn.net/v/t39.30808-1/305962557_574540937803319_3730787537392779154_n.png?stp=dst-png_s480x480&_nc_cat=100&ccb=1-7&_nc_sid=f4b9fd&_nc_eui2=AeF6yZ3nKWCVJU8jLANF1weDZ8OTSoHsrrxnw5NKgeyuvBSGkO4HTrljwEejdqYG9svOQE7ntaxZRYySTTKu1cja&_nc_ohc=fsDEA74I__4Q7kNvgEMNDZo&_nc_zt=24&_nc_ht=scontent.fbkk5-5.fna&_nc_gid=AyslHiNqATRdDYptVAtugxv&oh=00_AYBfqkp95_AIf-u6UiSXghHAW1WC5XnWgvrK25qbbh7Dyw&oe=6762497C" alt="school" style="height: 200px; width: 200px; border-radius: 50px; margin-top: 1rem;">
+                <div class="uni-con">
+                    <h2 style="margin: 1.3rem;">King Mongkut's University of Technology North Bangkok </h2>
+                    <p style="margin-left: 1.3rem;">Currently I am a second year student at the Faculty of Education, Department of Computer Technology, King Mongkut's University of Technology North Bangkok.</p>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+                <a href="#about" style="background-color: gray; color: aliceblue; border-radius: 5px; padding: 5px; text-decoration: none;">Back</a>
+                <a href="#skill" style="background-color: gray; color: aliceblue; border-radius: 5px; padding: 5px; text-decoration: none;">Next</a>
+            </div>
+        </div>
+
+        <div class="container" id="skill">
+            <h1>Skill & Experience</h1>
+            <div class="skill-con">
+                <img src="./images/HTML.png" alt="skill" style="height: 500px; width: 900px; margin: 2.5rem; border-radius: 10px;">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <a href="#education" style="background-color: gray; color: aliceblue; border-radius: 5px; padding: 5px; text-decoration: none;">Back</a>
+                <a href="#contact" style="background-color: gray; color: aliceblue; border-radius: 5px; padding: 5px; text-decoration: none;">Next</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact-con" id="contact" >
+            <h1 class="contact-s">Contact Me</h1>
+            <ul class="menu-contact">
+                <li><a href="https://web.facebook.com/zxcnvnxzcv"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgrni7mdpEyEl_6Qj_5TGl1FzaoEGMQcgvzg&s" alt="facebook" ></a></li>
+                <li><a href="https://www.instagram.com/iyktrvman/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="instagram"></a></li>
+                <li><a href="https://youtube.com/@idontknowiyk111?si=ffSdth6S8DtNNEGV"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_L4BWDRzfzlwM3wQTJ0qFXOkcIqdl0RnuVQ&s" alt="youtube"></a></li>
+            </ul>
+            <p style="color: aliceblue; text-align: center; margin: 2rem;">&copy;Create Website by Kittitat Mukdasanit</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Home</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: rgb(0, 0, 0);
+            position: sticky;
+            top: 0;
+        }
+        .nav-con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 45px;
+            margin-left: 1.5rem;
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        a:hover {
+            color: red;
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+        }
+        .menu li {
+            margin-right: 1rem;
+        }
+        .btn {
+            background-color: aliceblue;
+            color: black;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        body {
+            background-image: url('./images/BB9E2C82-B44A-47A5-ADE2-EB11DEE41BB5_1_201_a.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            width: 100vw;
+            height: 93vh;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            margin: 5rem;
+            background-color: rgb(52, 52, 52);
+            border-radius: 10px;
+            padding: 2rem;
+        }
+        .info {
+            margin-left: 1rem;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="#">Home</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="./website.html" class="btn">Go to My Website</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <marquee direction="rigth" style="margin: 5px;">Welcome to My Website ,This is the website I use to submit my homework for the Web Technology course. The website contains my personal information.</marquee>
+    <main>
+        <div class="container">
+            <hr/>
+            <div class="image">
+                <img  src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t1.6435-9/135916687_811486449582616_4887989853632242989_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFBYK9s31OJgEq9wJ_CEEvAqdbcoohsdUSp1tyiiGx1RKRsCAxFBUvFMP74iSXno9zpuZatlrgDDwqHf1lUlQO8&_nc_ohc=uT4P--jyAi4Q7kNvgEEox6s&_nc_zt=23&_nc_ht=scontent.fbkk22-4.fna&_nc_gid=AkpmuG-NmSw_GXjFL_MQM9I&oh=00_AYCLfZVUEfzxauj0f4V_jj4sXHpID6tX-ZAU5g5h0cnX8w&oe=67836A28" alt="Kittitat Mukdasanit">
+                <div class="info">
+                    <h1>Welcome to my website</h1>
+                    <hr>
+                    <p style="margin-top: 1rem;margin-bottom: 50px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus dolor aliquam,ab deleniti, ad omnis facere nobis. Delectus, modi perspiciatis rem, nam doloribus ipsa ducimus impedit error eligendi at doloremque dolorem harum cumque. Tempore, officiis repellendus eaque repellat similique voluptatibus iure recusandae illo impedit, ut repudiandae, nobis hic ratione nisi eum distinctio laboriosam sit. Unde, odio praesentium perferendis ducimus quaerat assumenda deleniti, veniam earum officiis sunt quod in iure officia quae aperiam nobis! Laudantium vero recusandae quidem omnis, dignissimos expedita inventore adipisci aspernatur nisi cumque illo minima perferendis aperiam autem labore dolorem fugiat iste? Facere!</p>
+                    <a href="/website.html" style="background-color: aliceblue;color: black; border-radius: 5px; padding: 3px; ">Go to My Profile</a>
+                    <a href="https://ced.kmutnb.ac.th" style="margin-left: 1rem;">Go to CED Website</a>
+                </div>
+            </div>
+        </div>
+        <div class="copy" style="display: flex;justify-content: center; margin-top: 10px;">
+            <p style="color: aliceblue;">&copy;Create Website by Kittitat Mukdasanit</p>
+        </div>
+    </main>
+</body>
+</html>
